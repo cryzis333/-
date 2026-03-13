@@ -4,7 +4,7 @@ import argparse
 import sys
 import locale
 from datetime import datetime
-from family_budget_simple import FamilyBudgetDB, TransactionType
+from family_budget_db import FamilyBudgetDB, TransactionType
 
 if sys.platform == 'win32':
     import codecs

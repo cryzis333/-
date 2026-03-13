@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify, send_from_directory
 from flask_cors import CORS
-from family_budget_simple import FamilyBudgetDB, TransactionType
+from family_budget_db import FamilyBudgetDB, TransactionType
 from datetime import datetime
 import json
 import os
